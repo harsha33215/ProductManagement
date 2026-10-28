@@ -1,0 +1,14 @@
+ProductRequest
+      ↓
+ProductMapper.toEntity()
+      ↓
+Product Entity
+      ↓
+Repository.save()
+      ↓
+Saved Product (with generated ID)
+      ↓
+ProductMapper.toResponse()
+      ↓
+ProductResponse
+///
